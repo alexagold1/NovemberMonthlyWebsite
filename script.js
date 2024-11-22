@@ -22,9 +22,12 @@ let myStory = `
 
 <p> In the end, you and <b>${userFriendName}</b> take down <b>${userVillain}</b> by suprising him and using your <b>${userSuperpower}</b> to get him on the ground and sucessfully capture <b>${userVillain}</b>. The police arrive on scene and put <b>${userVillain}</b> in handcuffs. </p>
 
-<p> Congrats on saving the day! You and <b>${userFriendName}</b> are known all around <b>${userCity}</b> once again and recieve praise by the civilians for your work! 
-<p> `
+<p> Congrats on saving the day! You and <b>${userFriendName}</b> are known all around <b>${userCity}</b> once again and recieve praise by the civilians for your work!  <p> `
 
 console.log(myStory)
 
 document.getElementById('story').innerHTML = myStory 
+
+function check() {
+    console.log(window.innerWidth);
+}
