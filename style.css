@@ -5,9 +5,9 @@ html {
 
 body {
   background-image: url(popart2.jpg);
-  background-repeat: no-repeat;
   background-size: 100% 100%;
   text-align: center;
+  background-attachment: fixed;
 }
 h2 {
   font-family: "lint-mccree", sans-serif;
@@ -19,7 +19,7 @@ h2 {
   height: 10%;
   box-sizing: border-box;
 }
-
+/* 
 @media screen and (max-width: 557px) {
   body {
     height: 150vh;
@@ -27,7 +27,7 @@ h2 {
     background-repeat: no-repeat;
     background-size: 100% 150vh;
   }
-}
+} */
 
 p:first-child {
   padding-top: 100px;
@@ -37,13 +37,13 @@ p {
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 250px;
-  padding-right: 250px;
+  width: 80%;
   font-family: "gelica", sans-serif;
   font-weight: 400;
   font-style: normal;
   height: 90%;
-  text-shadow: 0px 0px 10px white, 0px 0px 10px white;
+  text-shadow: 0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px white,
+    0px 0px 10px white;
   box-sizing: border-box;
   padding-top: 30px;
 }
